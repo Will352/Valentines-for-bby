@@ -97,8 +97,9 @@ const App = () => {
     <div ref={containerRef} className='px-8 sm:px-6 relative'>
       <h1 className='text-xl md:text-3xl text-center font-bold'>
         {!accepted
-          ? 'Will you please be my valentine???? 🥺🫰🏽'
-          : `Aw at last! I love youuu 😘❤️`}
+          ? 'Will you be my valentine? 😅🥰'
+          : `Aww finally! I love youuu 😘❤️
+          See you at Furaibo Izakaya Restaurant `}
       </h1>
       <div className='max-w-max mx-auto my-10'>
         {!accepted ? (
