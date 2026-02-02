@@ -97,7 +97,7 @@ const App = () => {
       <h1 className='text-xl md:text-3xl text-center font-bold'>
         {!accepted
           ? 'Will you be my valentine? 🥰🥺'
-          : `Aww finally! I love youuu ❤️
+          : `Aww finally! I love you ❤️
           See you at Furaibo Izakaya Restaurant! 😘`}
       </h1>
       <div className='max-w-max mx-auto my-10'>
