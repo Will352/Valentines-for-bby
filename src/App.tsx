@@ -6,13 +6,13 @@ import { AddToCalendarButton } from 'add-to-calendar-button-react';
 const heartBreak = [
   'Are you sure? 😢',
   'Please say yes 😭',
-  'I can cook. 😋',
-  `I'll buy you food. 🍔`,
-  `I'll take you to the moon. 🌙`,
-  `Don't be mean. 😡`,
-  `I'll be sad. 😔`,
-  `I'm just a baby. 👶🏽`,
-  `You're breaking my heart. 💔`,
+  'I can cook 🥺',
+  `I'll buy you food 😟`,
+  `I'll take you to the moon 🌙`,
+  `Don't be mean 😡`,
+  `I'll be sad 😔`,
+  `I'm just your baby 😘`,
+  `You're breaking my heart 😣`,
 ];
 
 const App = () => {
@@ -98,7 +98,7 @@ const App = () => {
       <h1 className='text-xl md:text-3xl text-center font-bold'>
         {!accepted
           ? 'Will you please be my valentine???? 🥺🫰🏽'
-          : `Yayyyy, let's goooo, love youuu!!! 😘 👩‍❤️‍👨`}
+          : `Aw at last! I love youuu 😘❤️`}
       </h1>
       <div className='max-w-max mx-auto my-10'>
         {!accepted ? (
